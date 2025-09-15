@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> Trabalhando com formulários</h1>
+    <p> Formulário simples </p>
+    <!--criando um formulario simples-->
+    <form action="">
+        <p>
+            <label for="inome">Nome: <!--label é uma etiqueta--> </label>
+            <input type="text" name="Nome" id="inome">
+            <!--input type (tipo do formulário) name= nome identificador id= código unico-->
+        </p>
+        <p>
+            <label for="isobrenome"> Sobrenome:</label>
+            <!-- input campo para o usuario conseguir digitar nele-->
+            <input type="text" name="Sobrenome" id="isobrenome"> <!--tipo texto-->
+        </p>
+        <p>
+            <label for="iemail"> E-mail</label>
+            <input type="email" name="e-mail" id="iemail"> <!--tipo texto-->
+        </p>
+        <p>
+            <label for="isenha">Senha:</label> <!--ctrl + shift + p ele coloca o texto dentro de um código-->
+            <input type="password" name="senha" id="isenha"> <!--tipo senha-->
+        </p>
+        <p>
+            Cor favorita: <br>
+            <label for="irosa">Rosa</label>
+            <input type="radio" name="cor" id="irosa"> <!--tipo radio--> <br>
+            <label for="iroxo">Roxo</label>
+            <input type="radio" name="cor" id="iroxo"> <br>
+            <label for="iazul">Azul</label>
+            <input type="radio" name="cor" id="iazul"> <br>
+
+        </p>
+        <p>
+            Gosto Musical: <!--tipo de check-list-->
+            <input type="checkbox" id="igospel" name="gospel">
+            <label for="igospel">Gospel</label>
+            <input type="checkbox" name="internacionla" id="iinternacional">
+            <label for="iinternacional">Internacional</label>
+        </p>
+        <p>
+            Curso:
+            <select name="" id="">
+                <option value="">Selecione</option>
+                <option value=""> Desenvolvimento Web</option>
+                <option value=""> Suporte de TI</option>
+                <option value=""> Gestão</option>
+            </select>
+        </p>
+        <p>
+            <label for="">Mensagem</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+
+
+
+
+
+        <input type="submit" value="acesse aqui">
+    </form>
+</body>
+
+</html>

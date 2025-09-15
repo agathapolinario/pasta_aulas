@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="" href="">
+</head>
+
+<body>
+
+    <!--abrindo uma seção para iniciar o meu site de tabelas-->
+
+    <h1> Construindo uma Tabela</h1>
+    <h4> Tabela Simples </h4>
+    <hr>
+
+
+    <!--criando uma seção para dar significados da tabela-->
+
+    <!--
+        ESTRUTURA DA TABELA:
+        TABLE
+            thead
+                tr,th td
+            tbody
+                tr,th,td
+            tfoot
+                tr,th,td
+                SIGNIFICADO DAS TAG´S
+                TABLE = Tabela
+                TBODY = Corpo da Tabela
+                TFOOT = Rodapé da Tabela
+                TR = Linha da tabela
+                TH = Título da tabela
+                TD = Dado da tabela
+                MESCLAR COLUNA = colspan
+                MESCLAR LINHA = rownspan
+        -->
+
+    <!--criando uma seção para criar tabelas-->
+    <table border="1" width="50%">
+        <tr>
+            <th> Nome</th>
+            <th> Sobrenome</th>
+            <th> Gosto Musical</th>
+        </tr>
+        <!--criando uma seção para criar a segunda linha da tabela-->
+
+        <tr>
+            <td>Ana</td>
+            <td> Apolinario</td>
+            <td> Eclético</td>
+        </tr>
+        <!--criando uma seção para a terceira linha da tabela-->
+
+        <tr>
+            <td> Arthur</td>
+            <td> Teles</td>
+            <td> R&B</td>
+        </tr>
+
+        <!--criando uma seção para a quarta linha da tabela-->
+        <tr>
+            <td> Caio</td>
+            <td> Moreira</td>
+            <td> Gospel</td>
+        </tr>
+
+    </table>
+    <!--criando uma seção para uma nova tabela-->
+
+    <h4> Tabela Estrurada</h4>
+
+    <table border="1" width="50%">
+        <caption> Dinheiro Poupado em 2026</caption> <!--ele escreve em cima-->
+        <!--criando uma seção para o titulo da tabela-->
+        <thead>
+            <th>Mês</th>
+            <th> Valor Guardado</th>
+        </thead>
+        
+        <!--criando uma seção para a primeira linha da tabela-->
+        <tbody>
+            <tr>
+                <td> Janeiro</td>
+                <td> R$200</td>
+            </tr>
+            <!--criando uma seção para a segunda linha da tabela-->
+
+            <tr>
+                <td> Fevereiro</td>
+                <td> R$220</td>
+            </tr>
+
+            <!--criando uma seção para a terceira linha da tabela-->
+
+            <tr>
+                <td> Março</td>
+                <td> R$206,10</td>
+            </tr>
+
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"> SALDO: 626,10</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
