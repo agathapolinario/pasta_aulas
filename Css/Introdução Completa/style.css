@@ -1,0 +1,17 @@
+* { margin: 0%;
+} /**essa tag deixa tudo alinhado de forma proporcional**/      
+h1 {
+    background-color: black;
+    color: hotpink;
+    margin: 100px;
+    padding: 40px;
+}
+/**podem criar outras paginas mas a primeira é sempre style.css, é a maneira mais recomendável e prática de se utilizar**/
+.grupo {
+    background-color: black;
+    color: hotpink;
+    margin: 100px; /**ele colocou uma distância de conteúdo de um para o outro**/
+    padding: 200px; /**distancia do conteúdo para a borda**/
+    border-radius: 20px; /**deixar a borda redonda**/
+}
+/**o class + o ponto, serve para chamar de forma unica algum atributo, assim a página não fica toda de uma cor só, apenas o que nós queremos de forma individual**/

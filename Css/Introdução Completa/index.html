@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução completa</title>
+    <style>
+        p {
+            background-color: rgb(31, 24, 25);
+            color: rgb(234, 218, 255);
+            /**todos os paragrafos ficaram com a mesma cor menos o inline porque o inline, é acima do interno (de forma hierarquica)**/
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header> <!--cabeçalho da minha página-->
+        <h1> O que é Css</h1>
+        <p> CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma linguagem de estilo utilizada para
+            descrever a apresentação de documentos escritos em HTML ou XML. Ela define a aparência visual de uma página
+            web, controlando elementos como cores,fontes, espaçamento, layout e desing.
+        </p>
+        <nav>
+            <a href="sobre.html">Sobre Nós</a>
+            <a href="index.html"> Página Inicial</a>
+        </nav>
+    </header>
+    <main> <!--parte principal do meu site-->
+        <section>
+            <h3 style="background-color: thistle; color: rgb(0, 0, 0);"> Existem 3 maneiras de aplicar CSS</h3>
+            <!--css na mesma linha utilize esses atributos-->
+            <!--conteúdo independente 1-->
+            <article class="grupo">
+                <h2> inline</h2>
+                <p style="background-color: rgb(168, 8, 88); color: greenyellow;"> Na mesma linha, através de um
+                    atributo chamado style</p>
+            </article>
+            <!--conteúdo independente 2-->
+            <article class="grupo">
+                <h2>Interno</h2>
+                <p>Dentro do mesmo documento HTML, através de uma tag chamada Style </p>
+            </article>
+            <!--conteúdo independente 1-->
+            <article class="grupo">
+                <h2>Externo</h2>
+                <p> Criando um novo arquivo .css e utilizando seletores </p>
+            </article>
+        </section>
+    </main>
+    <!--parte final do meu site ressaltando os meus direitos reservados-->
+    <footer>
+        <p>Todos os direitos reservados - 2025</p>
+    </footer>
+</body>
+
+</html>
