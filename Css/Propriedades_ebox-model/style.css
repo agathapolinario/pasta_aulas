@@ -1,0 +1,29 @@
+.caixa {
+    background-color: rgb(238, 214, 255); /**mudando a cor da caixa*/
+    color: rgb(85, 74, 25);/**mudando a cor da fonte*/
+    font-family: sans-serif; /**mudando a fonte*/
+    width: 700px;
+    height: 500px;
+    margin-bottom:200px;/* margin cria um espaçamento de um para o outro*/
+    margin-left: 400px;
+    padding: 200px; /*ele desgrudou do top e do left. com atributo ele jogou o conteúdo para a direção escolhida*/
+    box-sizing: border-box; /**assim nada modifica da minha caixa*/
+    
+}
+.caixa1{
+    background-color: #3766a3; /**com o color picket a # deixa na cor de sua preferência*/
+    color: #f0704d;
+    width: 500px;
+    height: 500px;
+}
+.caixa2 { /**tem que colocar rgb e adicionar ()*/
+    background-image: url(https://s2.dmcdn.net/v/JqtZZ1VhNEkunMw5V/x240); /**colocando imagem no fundo da caixa*/
+    background-position: right; /*colocando a imagem no centro center na direita rigth*/
+    width: 500px; /**mudando a largura da caixa*/
+    height: 700px; /*mudando a altura da caixa*/
+    background-repeat: no-repeat; /*para não duplicar a imagem*/
+    background-color:rgb(200, 255, 227); /*mudar a cor da caixa*/
+    color:rgb(10, 10, 10); /*mudar a cor do texto*/
+    background-size: contain; /**a imagem preenche todo o fundo com o cover. o contain, ele deixa no meio, e aparece a cor da caixa*/
+}
+/** top (cima), rigth (direita), bottom (em baixo) e left (esquerda).*/ 
